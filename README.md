@@ -35,3 +35,4 @@ Software as a Service (SaaS)
 
 ### cap-ex VS op-ex
 
+Capital expenditures (CapEx) are a company's major, long-term expenses, while operating expenses (OpEx) are a company's day-to-day expenses.
