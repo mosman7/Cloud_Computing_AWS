@@ -5,14 +5,17 @@ Cloud computing is the delivery of computing services - including servers, stora
 Cloud computing is on-demand delivery of IT resources over the internet with pay-as-you-go pricing. Instead of buying, owning, and maintaining physical data centers and servers, you can access technology services, such as computing power, storage, and databases, on an as-needed basis from a cloud provider like Amazon Web Services (AWS).
 
 ### What are its benefits?
+
 Agility
-The cloud gives you easy access to a broad range of technologies so that you can innovate faster and build nearly anything that you can imagine. You can quickly spin up resources as you need them–from infrastructure services, such as compute, storage, and databases, to Internet of Things, machine learning, data lakes and analytics, and much more.
+- The cloud gives you easy access to a broad range of technologies so that you can innovate faster and build nearly anything that you can imagine. You can quickly spin up resources as you need them–from infrastructure services, such as compute, storage, and databases, to Internet of Things, machine learning, data lakes and analytics, and much more.
 Deploy technology services in a matter of minutes
+
 Elasticity
-With cloud computing, you don't have to over provision resources up.
+- With cloud computing, you don't have to over provision resources up.
 Instead, you can provision the amount of resources that you actually need, scale the resources up or down to instantly grow or shrink capacity
+
 Cost
-The cloud allows you to trade fixed expenses (such as data centers and physical servers) for variable expenses, and only pay for IT as you consume it. Variable expenses are much lower than what you would pay to do it yourself.
+- The cloud allows you to trade fixed expenses (such as data centers and physical servers) for variable expenses, and only pay for IT as you consume it. Variable expenses are much lower than what you would pay to do it yourself.
 Deploy globally
 With the cloud, you can expand to a new geographic regions and deploy within minutes, just with a few clicks.
 
