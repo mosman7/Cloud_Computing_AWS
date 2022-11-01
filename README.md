@@ -16,7 +16,6 @@ The cloud allows you to trade fixed expenses (such as data centers and physical 
 Deploy globally
 With the cloud, you can expand to a new geographic regions and deploy within minutes, just with a few clicks.
 
-### What is AWS, who is using it and why
 
 ### PAAS, SAAS, IAAS
 Three main types of cloud computing include Infrastructure as a Service, Platform as a Service, and Software as a Service. Each type of cloud computing provides different levels of control, flexibilty, and management so that you can select the right set of services for your needs.
