@@ -4,6 +4,8 @@
 - Launch 2 ec2 instances - 1 for app, 1 for db
 - in db security, create an inbound rule allowing access to the mongodb port 27017 and make the source the ip of the app
 
+![mongodb1](https://user-images.githubusercontent.com/115226294/199618742-4aa771de-d5a4-48a2-b6d3-ebcba5a88419.png)
+
 ## Step 2
 - in gitbash ssh into db vm
 - Run the update/upgrade commands `sudo apt-get update -y` && `sudo apt-get upgrade -y`
