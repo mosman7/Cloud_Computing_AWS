@@ -33,7 +33,6 @@
 - open git bash and cd into the location where the key is (eng130.pem)
 - paste the link in there
 - The instance is now connected
-<<<<<<< HEAD
 
 # How to automate EC2 instances
 To automate EC2 instances, you have to either add a script in the text
