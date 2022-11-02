@@ -5,6 +5,8 @@
 - Log in to the AWS web console
 - Go to EC2 dashboard and select instances
 - Click on Launch instance
+- ![Instance](https://user-images.githubusercontent.com/115226294/199481086-d1234258-f807-496e-9e89-e76b964a121d.png)
+
 - Here you will be instructed to name the instance
 - Set the OS to Ubuntu 18.04
 - set the key pair to eng130
@@ -18,6 +20,7 @@
 - open git bash and cd into the location where the key is (eng130.pem)
 - paste the link in there
 - The instance is now connected
+<<<<<<< HEAD
 
 # How to automate EC2 instances
 To automate EC2 instances, you have to either add a script in the text
@@ -46,3 +49,5 @@ npm start
 - in .ssh folder run :
 `scp -i access.pem -r ~/Documents/directory1 ubuntu@0.0.0.0:/home/ubuntu/`
 - In my case i did `scp -i eng130.pem -r /C:/Users/moham/eng130_virtualisation/app/ ubuntu@ec2-52-214-111-95.eu-west-1.compute.amazonaws.com`
+=======
+>>>>>>> 2f69efb7f32dc4278c7cdfa4562f054d9751bf92
