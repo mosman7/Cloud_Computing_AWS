@@ -23,6 +23,9 @@ With the cloud, you can expand to a new geographic regions and deploy within min
 
 
 ### PAAS, SAAS, IAAS
+
+![](https://www.volico.com/wp-content/uploads/2017/08/IaaS-Saas-and-PaaS.jpg)
+
 Three main types of cloud computing include Infrastructure as a Service, Platform as a Service, and Software as a Service. Each type of cloud computing provides different levels of control, flexibilty, and management so that you can select the right set of services for your needs.
 
 Infrastructure as a Service (IaaS)
