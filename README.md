@@ -34,6 +34,7 @@ Platform as a Service (PaaS)
 Software as a Service (SaaS)
 - Software as a service, is on-demand access to ready-to-use, cloud-hosted application software.
 
+![IAAS](https://www.redhat.com/cms/managed-files/iaas-paas-saas-diagram3-1638x1046.png)
 
 ### cap-ex VS op-ex
 
