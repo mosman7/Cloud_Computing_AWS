@@ -6,6 +6,8 @@ Cloud computing is on-demand delivery of IT resources over the internet with pay
 
 ### What are its benefits?
 
+![benefits}(https://thinkitsolutions.com/wp-content/uploads/2019/02/Benefits-of-Cloud-Computing.png)
+
 Agility
 - The cloud gives you easy access to a broad range of technologies so that you can innovate faster and build nearly anything that you can imagine. You can quickly spin up resources as you need them–from infrastructure services, such as compute, storage, and databases, to Internet of Things, machine learning, data lakes and analytics, and much more.
 Deploy technology services in a matter of minutes
