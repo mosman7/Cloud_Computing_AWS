@@ -3,7 +3,6 @@
 - Log in to the AWS web console
 - Go to EC2 dashboard and select instances
 - Click on Launch instance
-- ![]("C:\Users\moham\Pictures\Instance.png")
 - Here you will be instructed to name the instance
 - Set the OS to Ubuntu 18.04
 - set the key pair to eng130
