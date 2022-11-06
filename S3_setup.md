@@ -33,6 +33,7 @@ Commands run after: aws s3 ls lists all s3 buckets available (if configuration i
 - create a file to put in bucket `sudo nano`
 
 #### When deleting a bucket you must delete all content before deleting a bucket - can only delete a empty bucket
+
 - download object from s3 ` aws s3 cp s3://eng130-osman/testing-s3.txt newtest.txt`
 - delete file - `aws s3 rm s3://eng130-osman/testing-s3.txt`
 - remove bucket ` aws s3 rb s3://eng130-osman`

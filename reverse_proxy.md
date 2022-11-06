@@ -1,5 +1,5 @@
 # Set up reverse proxy
-
+The reverse proxy can provide an additional layer of security by filtering traffic and only allowing requests that meet certain criteria to pass through to the web server.
 ### After connecting to the instance:
 - in gitbash run `sudo apt-get update -y` and `sudo apt-get upgrade -y`
 - install nginx `sudo apt install nginx`

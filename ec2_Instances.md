@@ -8,10 +8,10 @@
  ![Instance](https://user-images.githubusercontent.com/115226294/199481086-d1234258-f807-496e-9e89-e76b964a121d.png)
 - Here you will be instructed to name the instance
 
-![instance1](https://user-images.githubusercontent.com/115226294/199496361-0d508257-41f3-4114-8786-1cfac7f9c283.png)
+ ![instance1](https://user-images.githubusercontent.com/115226294/199496361-0d508257-41f3-4114-8786-1cfac7f9c283.png)
 - Set the OS to Ubuntu 18.04
 
-  ![instance2](https://user-images.githubusercontent.com/115226294/199496819-9f1e7d41-5a2c-48f8-9da3-67c1923bb4cc.png)
+ ![instance2](https://user-images.githubusercontent.com/115226294/199496819-9f1e7d41-5a2c-48f8-9da3-67c1923bb4cc.png)
 
 - set the key pair to eng130
 
@@ -26,7 +26,7 @@
  ![instance5](https://user-images.githubusercontent.com/115226294/199496959-28b169fa-048d-4504-b629-4d95a2802df9.png)
 
 
-# Connect to the instance VM
+# How to connect to the instance VM
 
 - select the instance in question and click connect at the top
 - navigate to the ssh tab and copy the link at the bottom
@@ -46,7 +46,7 @@ To automate EC2 instances, you have to either add a script in the text
 sudo apt-get update -y
 sudo apt-get upgrade -y
 
-sudo apt install nginx -y
+sudo apt-get install nginx -y
 sudo systemctl start nginx
 sudo systemctl enable nginx
 
@@ -64,4 +64,8 @@ npm start
 `scp -i access.pem -r ~/Documents/directory1 ubuntu@0.0.0.0:/home/ubuntu/`
 - In my case i did `scp -i eng130.pem -r /C:/Users/moham/eng130_virtualisation/app/ ubuntu@ec2-52-214-111-95.eu-west-1.compute.amazonaws.com`
 - ssh back into vm and do `ls`
-- imported files should be present
+- imported files should now be present
+
+### User Data
+User data is a script that an instance runs when it starts. You can use user data to automate the configuration of your instances. For example, you can use user data to install software, configure security, or download data from a remote location.
+

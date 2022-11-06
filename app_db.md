@@ -3,6 +3,7 @@
 ## Step 1
 - Launch 2 ec2 instances - 1 for app, 1 for db
 - in db security, create an inbound rule allowing access to the mongodb port 27017 and make the source the ip of the app
+- can also make the source the security group, copy the security group link, this will allow you to still connect to db if app ip changes
 
 ![mongodb1](https://user-images.githubusercontent.com/115226294/199618742-4aa771de-d5a4-48a2-b6d3-ebcba5a88419.png)
 

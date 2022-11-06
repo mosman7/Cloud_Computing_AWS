@@ -39,8 +39,43 @@ Software as a Service (SaaS)
 
 ![IAAS](https://www.redhat.com/cms/managed-files/iaas-paas-saas-diagram3-1638x1046.png)
 
-### cap-ex VS op-ex
+### Cap-Ex VS Op-Ex
 
 Capital expenditures (CapEx) are a company's major, long-term expenses, while operating expenses (OpEx) are a company's day-to-day expenses.
 
 ![Cap-ex](https://blog.comindware.com/wp-content/uploads/2018/12/capex-vs-opex.png)
+
+### Amazon Machine Image (AMI)
+An Amazon Machine Image (AMI) provides the information required to launch an instance. You must specify an AMI when you launch an instance. You can launch multiple instances from a single AMI when you need multiple instances with the same configuration. You can use different AMIs to launch instances when you need instances with different configurations.
+
+### Disaster Recovery
+AWS provides a range of disaster recovery stratgies to help you recover from a disaster. These can be broadly divided into four categories:
+- low cost and low complexity, such as Amazon S3 to store backups
+- low high and high complexity, such as having a standby environment in different active regions
+- Active Sites, such as an AWS Region to host the workload and serve traffic.
+- Passive Sites, such as a different AWS Region is used for recovery. The passive site does not actively serve traffic until a failover event is triggered.
+
+### S3
+
+S3 is an object storage service that stores data as objects within buckets. An object is a file and any metadata that describes the file. A bucket is a container for objects.
+
+To store your data in Amazon S3, you first create a bucket and specify a bucket name and AWS Region. Then, you upload your data to that bucket as objects in Amazon S3. Each object has a key (or key name), which is the unique identifier for the object within the bucket.
+
+
+#### Autoscaling
+- Autoscaling automaticlly adjusts the amount of computational resources based on the server load
+- autoscaling policy - decides what to do to distribute traffic - scale up, down, in or out
+    - it scales in and out - adding more instances
+    - it scales up and down - adding more resources
+Benefits:
+- Better fault tolerance. Amazon EC2 Auto Scaling can detect when an instance is unhealthy, terminate it, and launch an instance to replace it. 
+- Better availability. Amazon EC2 Auto Scaling helps ensure that your application always has the right amount of capacity to handle the current traffic demand.
+- Better cost management. Amazon EC2 Auto Scaling can dynamically increase and decrease capacity as needed. Because you pay for the EC2 instances you use, you save money by launching instances when they are needed and terminating them when they aren't.
+
+
+#### Load Balancing
+- Load Balancing distributes traffice between ec2 instances so that no one instance gets overwhelmed
+Benefits:
+- Using a load balancer increases the availability and fault tolerance of your applications.
+- You can add and remove compute resources from your load balancer as your needs change, without disrupting the overall flow of requests to your applications.
+- You can configure health checks, which monitor the health of the compute resources, so that the load balancer sends requests only to the healthy ones. 
