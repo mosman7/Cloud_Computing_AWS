@@ -4,9 +4,9 @@
 - It is a global service which means it is highly available and scalable.
 - You can store whatever you want on it as it's a storage platform, so anything you want to keep can be held on S3.
 
-## What is required
+## What is required to run an EC2 instance
 
-On you EC2 Instance or any machine, you need:
+On your EC2 Instance or any machine, you need:
 - Python3 or above
 - AWS-CLI
 - pip3
@@ -17,7 +17,7 @@ On you EC2 Instance or any machine, you need:
 - ssh into app vm
 - Install python3 `sudo apt-get install python3`
 - Check Python version python –version
-- If the version is 2.... then run this command to force the use of version 3... `alias python=python3`
+- If the version is 2, then run this command to force the use of version 3... `alias python=python3`
 - Then check the version again and it should be 3.x
 - Install pip3 `sudo apt-get install python3-pip`
 - Install awscli `sudo pip3 install awscli`
@@ -27,18 +27,16 @@ On you EC2 Instance or any machine, you need:
 
 #### CRUD- Create, Read, Update, Delete
 
-Commands run after: aws s3 ls lists all s3 buckets available (if configuration is successful)
+Commands run after: (if configuration is successful)
 - View all s3 buckets available  `aws s3 ls` 
 - create a bucket `aws s3 mb s3://eng130-osman` - no underscores allowed use dash
 - create a file to put in bucket `sudo nano`
-
 #### When deleting a bucket you must delete all content before deleting a bucket - can only delete a empty bucket
-
 - download object from s3 ` aws s3 cp s3://eng130-osman/testing-s3.txt newtest.txt`
 - delete file - `aws s3 rm s3://eng130-osman/testing-s3.txt`
 - remove bucket ` aws s3 rb s3://eng130-osman`
 
-### How to automate CRUD
+## How to automate CRUD
 
 #### Creating a bucket
 ```
