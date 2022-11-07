@@ -15,7 +15,7 @@ npm start
 
 
 ## Cloudwatch
-To create an alarm go to the Cloud Watch tab
+To create an alarm go to CloudWatch on the AWS console
 - Click on "All alarms" on the left under Alarms
 - Click "Create Alarm"
 - Under "Select metric" - Select EC2
