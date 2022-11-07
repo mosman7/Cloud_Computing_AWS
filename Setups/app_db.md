@@ -32,7 +32,7 @@
 ## Step 4
 - ssh into app vm
 - Create a environment variable called db_host
-- `export DB_HOST=mongodb://0.0.0.0:27017/posts` - input db ip address where 0.0.0.0
+- `export DB_HOST=mongodb://0.0.0.0:27017/posts` - input db ip address where 0.0.0.0 is app ip
 - printenv DB_HOST to see if this has saved
 - `npm install`
 - `npm start`
