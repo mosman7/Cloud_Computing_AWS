@@ -3,7 +3,7 @@
 - On the AWS console, go to VPC
 - `Create VPC`
 - Add your name tag, input IPV4 CIDR block and create VPC
-vpc1
+![VPC 1](https://user-images.githubusercontent.com/115226294/200382298-8d6266de-4a71-40ca-98bf-5e47f867d412.png)
 
 #### Step 2 - Create an Internet Gateway
 - On the VPC dashboard, select `Internet Gateway`
@@ -29,11 +29,13 @@ create
 - `Destination 0.0.0.0/0`, `Target - Internet Gateway` - Save changes
 - Edit subnet associations
 - Add the subnet you have just created
-VPC 2&3
+![VPC 2](https://user-images.githubusercontent.com/115226294/200382339-dbc0a0ae-4386-4087-a0ad-373c3bd15e5b.png)
+![VPC 3](https://user-images.githubusercontent.com/115226294/200382340-5de34b29-44b4-4bb3-b606-7b14ef45a7c7.png)
+
 
 ##### For Pirvate subnets
 - Do not connect to internet gateway
-vpc 4
+![VPC 4](https://user-images.githubusercontent.com/115226294/200382379-12164b6c-8f35-4bde-9678-1becf05b9efd.png)
 
 #### Step 5 - Launch your EC2 instance inside the VPC subnet
 - Launch EC2
@@ -53,12 +55,12 @@ sudo systemctl enable nginx
 Launch instance
 #### In the app security group
 Allow the following ports:
-VPC 5
+![VPC 5](https://user-images.githubusercontent.com/115226294/200382411-618e5377-ed28-4f93-b9a2-f8088f047c4a.png)
 
 ##### In the DB security group
 Allow the following ports:
 - Source for port 27017 must be the public subnet CIDR
-VPC 6
+![vpc 6](https://user-images.githubusercontent.com/115226294/200382445-abb3c624-19a7-40f0-b8d0-fb220a8694b9.png)
 
 #### Step 6 Connect to app
 - SSH into app instance
